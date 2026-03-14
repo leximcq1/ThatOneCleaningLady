@@ -1,0 +1,100 @@
+/* BRAND COLORS & BASICS */
+:root {
+    --brand-orange: #FB4F14; /* Broncos Orange Crush */
+    --brand-blue: #002244;   /* Broncos Navy */
+    --brand-white: #FFFFFF;
+    --light-bg: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--brand-blue);
+}
+
+/* HEADER STYLES */
+header {
+    background-color: var(--brand-white);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--brand-blue);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--brand-blue);
+    font-weight: bold;
+}
+
+/* BUTTON STYLES */
+.btn-quote, .btn-main {
+    background-color: var(--brand-orange);
+    color: var(--brand-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-quote:hover, .btn-main:hover {
+    background-color: #d9400d; /* Slightly darker orange for hover effect */
+}
+
+/* HERO SECTION STYLES */
+.hero {
+    background-color: var(--brand-blue);
+    color: var(--brand-white);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* FEATURE SECTION STYLES */
+.features {
+    padding: 60px 20px;
+    background-color: var(--light-bg);
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: var(--brand-white);
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-top: 4px solid var(--brand-orange);
+}
