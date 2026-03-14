@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>That One Cleaning Business | Cedar Rapids</title>
+    <title>That One Cleaning Lady | Cedar Rapids</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">That One Cleaning Lady</div>
+        <div class="logo">That One Cleaning Lady&trade;</div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">Meet Lexi</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact" class="btn-quote">Get a Quote</a></li>
             </ul>
@@ -22,28 +22,115 @@
     <section class="hero">
         <div class="hero-content">
             <h1>STRESS LESS; Trust my standards above the rest!</h1>
-            <p>Premium, pet-friendly residential and commercial cleaning in the greater Cedar Rapids area.</p>
-            <a href="#contact" class="btn-main">Book Your Clean</a>
+            <p>You have enough on your plate. Let That One Cleaning Lady handle the dirt. Delivering premium, 100% pet-friendly cleaning to Marion, Fairfax, Hiawatha, North Liberty, & Robins.</p>
+            <a href="#contact" class="btn-main">Claim Your Free Quote!</a>
         </div>
     </section>
 
-    <section id="about" class="features">
-        <h2>Delivering "Lexcellence" Every Time</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>Local & Reliable</h3>
-                <p>Proudly serving Marion, Fairfax, Hiawatha, North Liberty, & Robins.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Furry Friends Welcome</h3>
-                <p>100% pet-friendly service. We love your pets as much as you do.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Commercial & Residential</h3>
-                <p>From cozy homes to professional office spaces, we handle it all.</p>
+    <section id="about" class="about-owner">
+        <div class="about-container">
+            <img src="lexi-profile.jpg" alt="Lexi, Owner of That One Cleaning Lady" class="profile-pic">
+            
+            <div class="about-text">
+                <h2>Hey, I'm Lexi!</h2>
+                <h3>Your go-to girl for a spotless space, a sigh of relief, and zero judgment.</h3>
+                
+                <p>Let's be real: life is chaotic, and keeping up with the house is usually the first thing to fall off the to-do list. I started <strong>That One Cleaning Business, LLC</strong> because you shouldn't have to spend your precious downtime scrubbing baseboards or stressing over dusty ceiling fans.</p>
+                
+                <p>Before I was destroying dirt, I was a Licensed Massage Therapist. My entire career has been dedicated to helping people relax, reset, and feel better. Now? I do the exact same thing for your home. I know exactly how to turn a stressful, messy room into a calm, breathable space.</p>
+                
+                <p>I take my standard of "Lexcellence" very seriously, but I like to keep things fun, friendly, and totally unpretentious. When I'm not making the greater Cedar Rapids area shine, you can usually find me hanging out with my dog, Enzo (which is why my business is fiercely and proudly 100% pet-friendly!).</p>
+                
+                <p><strong>Stop stressing over the mess. Let That One Cleaning Lady handle it.</strong></p>
             </div>
         </div>
     </section>
+
+    <section id="services" class="services-section">
+        <div class="services-header">
+            <h2>The "Lexcellence" Lineup</h2>
+            <p>Pick your package and let's get that dirt out of here.</p>
+        </div>
+        
+        <div class="service-grid">
+            <div class="service-package">
+                <h3>The "Stress Less" Standard</h3>
+                <p>Your weekly or bi-weekly lifesaver. Perfect for keeping the chaos at bay so you can actually enjoy your weekends.</p>
+                <ul>
+                    <li>Dusting & wiping down all primary surfaces</li>
+                    <li>Thorough vacuuming & mopping</li>
+                    <li>Kitchen & bathroom refresh</li>
+                    <li>100% Pet-Friendly!</li>
+                </ul>
+            </div>
+
+            <div class="service-package">
+                <h3>The Total Reset</h3>
+                <p>For when things have gotten a little out of hand. A top-to-bottom deep clean that hits all the forgotten corners.</p>
+                <ul>
+                    <li>Everything in the Standard package</li>
+                    <li>Baseboards, blinds, and ceiling fans</li>
+                    <li>Deep scrubbing of grout and tile</li>
+                    <li>Inside window tracks & appliance exteriors</li>
+                </ul>
+            </div>
+
+            <div class="service-package">
+                <h3>The Corner Office Shine</h3>
+                <p>Commercial cleaning that actually cares. Impress your clients and keep your employees productive in a spotless workspace.</p>
+                <ul>
+                    <li>Lobby & reception area detailing</li>
+                    <li>Breakroom & restroom sanitization</li>
+                    <li>Trash removal & floor care</li>
+                    <li>Customized to your operating hours</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Ready to Stress Less?</h2>
+                <p>Drop your details below, and let me know what kind of mess we are dealing with. I will get back to you with a free quote and we can get you on the schedule!</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form action="YOUR_FORMSPREE_LINK_HERE" method="POST" class="quote-form">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="service">What do you need?</label>
+                        <select id="service" name="service">
+                            <option value="standard">The "Stress Less" Standard</option>
+                            <option value="deep-clean">The Total Reset (Deep Clean)</option>
+                            <option value="commercial">The Corner Office Shine</option>
+                            <option value="other">Something else!</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Tell me about the space (Pets? Square footage?)</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="I have a 3-bedroom house and a very fluffy golden retriever..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send My Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 That One Cleaning Business, LLC. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
